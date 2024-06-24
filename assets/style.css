@@ -1,0 +1,39 @@
+#sbp-booking-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+#sbp-booking-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+#sbp-booking-form input, #sbp-booking-form select, #sbp-booking-form button {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+#sbp-booking-form button {
+    background-color: #0073aa;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#sbp-booking-form button:hover {
+    background-color: #005177;
+}
+
+#sbp-message.success {
+    color: green;
+}
+
+#sbp-message.error {
+    color: red;
+}
